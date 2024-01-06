@@ -1,24 +1,30 @@
 namespace Strategy_Pattern.Service;
 
+public class Knife
+{
+    public static string KillByKnife()
+    {
+        return "kill by knife";
+    }
+}
+
+public class Gun
+{
+    public static string KillByGun()
+    {
+        return "kill by gun";
+    }
+}
+
 public class KillerService
 {
     public string Kill(string weapon)
     {
         if (weapon == "gun")
         {
-            return KillByGun();
+            return Gun.KillByGun();
         }
 
-        return KillByKnife();
-    }
-
-    private static string KillByKnife()
-    {
-        return "kill by knife";
-    }
-
-    private static string KillByGun()
-    {
-        return "kill by gun";
+        return Knife.KillByKnife();
     }
 }
