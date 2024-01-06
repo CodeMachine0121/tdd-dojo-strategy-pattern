@@ -18,7 +18,14 @@ public class KillerTests
     [Test]
     public void should_kill_by_knife()
     {
-        var result = _killerService.Kill();
+        var result = _killerService.Kill("knife");
         result.Should().Be("kill by knife");
+    }
+
+    [Test]
+    public void should_kill_by_gun()
+    {
+        var result = _killerService.Kill("gun");
+        result.Should().Be("kill by gun");
     }
 }
