@@ -28,4 +28,10 @@ public class KillerTests
         var result = _killerService.Kill("gun");
         result.Should().Be("kill by gun");
     }
+
+    [Test]
+    public void should_kill_by_poison()
+    {
+       _killerService.Kill("poison").Should().Be("kill by poison");
+    }
 }
