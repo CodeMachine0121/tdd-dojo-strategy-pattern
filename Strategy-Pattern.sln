@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy-Pattern", "Strategy-Pattern\Strategy-Pattern.csproj", "{4A020199-B84E-4BD3-8C01-C49B866D0005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A020199-B84E-4BD3-8C01-C49B866D0005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A020199-B84E-4BD3-8C01-C49B866D0005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A020199-B84E-4BD3-8C01-C49B866D0005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A020199-B84E-4BD3-8C01-C49B866D0005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
