@@ -6,9 +6,19 @@ public class KillerService
     {
         if (weapon == "gun")
         {
-            return "kill by gun";
+            return KillByGun();
         }
 
+        return KillByKnife();
+    }
+
+    private static string KillByKnife()
+    {
         return "kill by knife";
+    }
+
+    private static string KillByGun()
+    {
+        return "kill by gun";
     }
 }
